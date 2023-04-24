@@ -1,4 +1,4 @@
-import { Dispatch, useEffect, useState } from "react";
+import { Dispatch, useState } from "react";
 import "../Global.scss";
 import { SearchDataType } from "../interface";
 import { Button, Space } from "antd";

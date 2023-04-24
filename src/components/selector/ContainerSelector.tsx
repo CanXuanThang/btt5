@@ -14,7 +14,7 @@ function ContainerSelector(props: Props) {
   const dispatch: Dispatch<any> = useDispatch();
   useEffect(() => {
     dispatch(fetchData(page));
-  }, [dispatch]);
+  }, [dispatch, page]);
 
   return (
     <div className="d-flex">
